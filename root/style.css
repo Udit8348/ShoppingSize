@@ -1,0 +1,396 @@
+body {
+	width: 300px;
+	float: left;
+	font-family: Avenir, Trebuchet MS;
+	background: #fafafb;
+	margin-bottom: 0;
+}
+
+a {
+	color: #3265CB !important;
+}
+
+#install {
+	background: white;
+	padding: 10px;
+	box-sizing: border-box;
+	display: none;
+}
+
+#install-settings-link {
+	text-decoration: underline;
+	color: blue;
+}
+
+#install-settings-link:hover {
+	cursor: pointer;
+}
+
+.install-img {
+	width: 50px;
+	margin: 20px calc((280px - 50px)/2) 0px calc((280px - 50px)/2);
+}
+
+.install-title {
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.install-subtitle {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.install-directions {
+	font-size: 14px;
+	text-align: center;
+}
+
+.install-name-input {
+	background: none;
+	border: none;
+	font-family: Avenir, Roboto;
+	width: 200px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	margin: 15px calc((100% - 200px)/2) 0 calc((100% - 200px)/2);
+	color: black;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+
+.install-input-descriptions {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.install-button {
+	font-family: Avenir, Roboto;
+	font-size: 14px;
+	width: 150px;
+	margin: 20px calc((100% - 150px)/2) 0 calc((100% - 150px)/2);
+	background: gray;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 0;
+	transition: background 0.3s;
+	text-align: center;
+}
+
+.install-button:hover {
+	cursor: pointer;
+	background: lightgray;
+}
+
+.install-settings-saved {
+	color: black;
+	display: none;
+	font-size: 14px;
+	text-align: center;
+}
+
+.title-row {
+	width: 100%;
+	float: left;
+	font-size: 17px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 0;
+	border-radius: 5px;
+	text-align: left;
+	background: #3265CB;
+	border-bottom: 3px solid #FDCB25;
+	color: white;
+}
+
+.title {
+	float: left;
+	color: white;
+	margin: 6.5px 0;
+	font-weight: 700;
+}
+
+#currentTime {
+	float: right;
+	font-size: 15px;
+}
+
+#date {
+	float: right;
+	font-size: 12px;
+	clear: right;
+}
+
+#main {
+	float: left;
+	width: 100%;
+}
+
+.line1 {
+	margin: 0;
+	padding: 10px 0 10px 0;
+	font-size: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.day-and-message {
+	float: left;
+	padding: 15px 0 0 0;
+	width: 100%;
+}
+
+.day-container {
+	width: 75px;
+	background: lightgray;
+	text-align: center;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.letter-day {
+	margin: 10px 0 0 0;
+	font-size: 30px;
+}
+
+.day {
+	margin: 0 0 10px 0;
+	font-size: 15px;
+}
+
+.today {
+	margin: 0;
+}
+
+.updates {
+	margin: 0;
+	text-align: center;
+}
+
+.date-container {
+	margin: 0 0 0 10px;
+	width: calc(100% - 90px);
+	float: left;
+	font-size: 15px;
+}
+
+.time-remaining {
+	float: left;
+	border-top: 1px solid rgba(100, 100, 100, 0.3);
+	width: 100%;
+	display: none;
+}
+
+.time-remaining-text {
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#hours {
+	display: none;
+}
+
+#multiple-hours-s {
+	display: none;
+}
+
+#multiple-minutes-s {
+	display: none;
+}
+
+.schedule {
+	width: 100%;
+	float: left;
+	border-top: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.schedule-line1 {
+	text-align: center;
+	font-size: 15px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.schedule-title {
+	text-align: center;
+	font-size: 15px;
+	margin: 15px 0 7.5px 0;
+}
+
+table {
+	margin: 0 calc((100% - 245px)/2) 10px calc((100% - 245px)/2);
+}
+
+td {
+	padding: 2.5px 5px;
+}
+
+.column1 {
+	width: 75px;
+	text-align: left;
+}
+
+.column2 {
+	width: 150px;
+	text-align: right;
+}
+
+.footer {
+	width: 100%;
+	float: left;
+	height: 36px;
+	padding: 0;
+	border-top: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.footer-icons {
+	height: 15px;
+	padding: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	transition: background 0.5s;
+}
+
+.footer-icons:hover {
+	background: rgba(100, 100, 100, 0.3);
+}
+
+.footer-links {
+    outline: none;
+    border: 0;
+}
+
+#settings-link {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	text-decoration: underline;
+	display: inline-block;
+	height: 20px;
+}
+
+#settings-panel {
+	float: left;
+	width: 100%; 
+	margin-bottom: 20px;
+	display: none;
+}
+
+.settings-title {
+	text-align: center;
+	font-size: 15px;
+	margin: 15px 0 7.5px 0;
+}
+
+.settings-description {
+	width: 100%;
+	text-align: center;
+}
+
+#class-inputs {
+	margin: 0 59px 15px 59px;
+}
+
+.teacher-inputs-section {
+	display: none;
+	float: left;
+}
+
+.teacher-inputs-column-1 {
+	float: left;
+	width: 100px;
+	margin: 5px 0 5px 0;
+	text-align: center;
+}
+
+.teacher-inputs-column-2 {
+	float: left;
+	margin: 4px 20px 4px 20px;
+}
+
+.copyright {
+	font-size: 8px;
+	color: gray;
+	text-align: right;
+	float: right;
+	margin: 4.5px 0;
+	padding: 0;
+}
+
+.settings {
+	width: 100%;
+	float: left;
+	display: none;
+}
+
+.name-input {
+	margin: 5px 0;
+}
+
+.save-settings-button {
+	font-family: Avenir, Roboto;
+	font-size: 12px;
+	width: 175px;
+	margin: 20px calc((100% - 175px)/2) 0 calc((100% - 175px)/2);
+	background: gray;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 0;
+	transition: background 0.3s;
+	float: left;
+	text-align: center;
+}
+
+.save-settings-button:hover {
+	cursor: pointer;
+	background: lightgray;
+}
+
+#no-internet {
+	display: none;
+	width: 300px;
+}
+
+#snow-day {
+	display: none;
+	width: 300px;
+}
+
+#no-school {
+	display: none;
+	width: 300px;
+}
+
+#saturday {
+	display: none;
+	width: 300px;
+}
+
+#sunday {
+	display: none;
+	width: 300px;
+}
+
+#summer {
+	display: none;
+	width: 300px;
+}
+
+.highlighted-row {
+	background: rgba(50, 101, 203, 0.3);
+}
