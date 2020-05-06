@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Shopping Size",
+    "description": "Chrome Extension to Track the Your Size on Different Websites",
+    "version": "0.1",
+    "icons": {
+        "128": "icon-128.png"
+    }
+}
