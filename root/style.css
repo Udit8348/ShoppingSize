@@ -27,8 +27,8 @@ a {
 }
 
 .install-img {
-	width: 50px;
-	margin: 20px calc((280px - 50px)/2) 0px calc((280px - 50px)/2);
+	width: 100px;
+	margin: 20px calc((280px - 100px)/2) 0px calc((280px - 100px)/2);
 }
 
 .install-title {
