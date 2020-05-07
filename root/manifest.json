@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Shopping Size",
     "description": "Chrome Extension to Track the Your Size on Different Websites",
-    "version": "0.1",
+    "version": "0.1.0",
     "icons": {"128": "icon-128.png"},
     "browser_action":{
         "default_icon": "bell-icon.png",
